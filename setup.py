@@ -53,7 +53,7 @@ setup(
     ],
     entry_points={
         'napari.plugin': [
-            'affinder = affinder',
+            'affinder = affinder.plugin',
         ],
     },
 )
